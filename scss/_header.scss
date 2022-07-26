@@ -1,0 +1,21 @@
+.header{
+    background-color: rgb(142, 217, 192);
+    position:relative;
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content img{
+        max-width: 300px;
+        max-height: 300px;
+        height: auto;
+        width: auto;
+    }
+}
+.header1 {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}

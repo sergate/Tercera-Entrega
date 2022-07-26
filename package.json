@@ -4,7 +4,7 @@
   "description": "tercer entrega del proyecto final",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "sass --watch scss:css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sergate/Tercera-Entrega/issues"
   },
-  "homepage": "https://github.com/sergate/Tercera-Entrega#readme"
+  "homepage": "https://github.com/sergate/Tercera-Entrega#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
